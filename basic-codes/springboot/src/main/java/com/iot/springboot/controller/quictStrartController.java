@@ -5,11 +5,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-@ConfigurationProperties(prefix = "student")
+@ConfigurationProperties(prefix = "student")//里面的参数表示key的前缀
 @Controller
 public class quictStrartController {
 
-
+    /*
+    * 利用@ConfigurationProperties(prefix = "student")注解获取
+    * application.yml文件中的配置信息
+    * */
     private String name;
     private int age;
     private String addr;
