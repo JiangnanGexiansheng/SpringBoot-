@@ -3,4 +3,6 @@ student:
   age: 16
   addr: Beijing
 
-
+cities:
+  - Beijing
+  - Wuxi
